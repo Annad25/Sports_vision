@@ -92,7 +92,6 @@ This significantly reduces common misclassification issues.
 
 * Annotated broadcast video
 * Embedded Hawk-Eye–style 2D tactical map
-* Output shared via **Google Drive** (as required)
 
 ---
 
@@ -122,4 +121,9 @@ This significantly reduces common misclassification issues.
 * Dynamic homography updates
 * Kalman filter for smoother ball motion
 * Optional appearance embeddings for team refinement
+---
+
+## PS
+
+* Use colab to run the tracking script after selecting the corners by running the corner selection script (3.py) and extracting the court corners
 
