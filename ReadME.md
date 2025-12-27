@@ -4,7 +4,7 @@
 
 This project implements a complete computer vision pipeline for volleyball broadcast videos. It detects, tracks, and classifies players, the referee, and the ball, and projects all entities onto a synchronized top-down Hawk-Eye–style 2D tactical map.
 
-The system is designed to be **spatially robust and explainable**, avoiding fragile jersey-color or appearance-based rules.
+The system is designed to be **spatially robust and explainable**, avoiding jersey-color or appearance-based rules.
 
 ---
 
@@ -122,3 +122,4 @@ This significantly reduces common misclassification issues.
 * Dynamic homography updates
 * Kalman filter for smoother ball motion
 * Optional appearance embeddings for team refinement
+
